@@ -15,3 +15,7 @@ server.listen(3000, () => {
 })
 
 module.exports = server
+
+export default function handler(req, res) {
+    res.status(200).end('Hello Cron!');
+}
