@@ -1,0 +1,30 @@
+{
+  "user": [
+    {
+      "id": "Admin",
+      "name": "Admin",
+      "password": "12345",
+      "e_mail": "admin@cc.com",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "id": "Cole",
+      "name": "Cole",
+      "password": "123",
+      "e_mail": "cole@cc.com",
+      "role": "user",
+      "isActive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "admin",
+      "name": "Admin"
+    },
+    {
+      "code": "user",
+      "name": "User"
+    }
+  ]
+}
