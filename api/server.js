@@ -10,6 +10,10 @@ server.use(jsonServer.rewriter({
     '/blog/:resource/:id/show': '/:resource/:id'
 }))
 server.use(router)
+
+var cors = require('cors');
+app.use(cors());
+
 server.listen(3000, () => {
     console.log('JSON Server is running')
 })
