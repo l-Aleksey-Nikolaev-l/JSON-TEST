@@ -11,15 +11,14 @@
     }
   ],
   "functions": {
-    "api/server.js": {
-      "memory": 1024,
-      "includeFiles": "db.json"
+    "api/server.ts": {
+      "memory": 1024
     }
   },
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "api/server.js"
+      "destination": "api/server.ts"
     }
   ]
 }

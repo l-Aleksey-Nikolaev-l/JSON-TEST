@@ -2,11 +2,13 @@
   "name": "json-server",
   "version": "1.0.0",
   "description": "JSON-SERVER",
-  "main": "api/server.js",
+  "main": "api/server.ts",
   "scripts": {
-    "start": "node api/server.js"
+    "start": "node api/server.ts"
   },
   "dependencies": {
+    "firebase": "^10.3.1",
+    "firebase-admin": "^11.10.1",
     "json-server": "^0.17.0"
   }
 }
